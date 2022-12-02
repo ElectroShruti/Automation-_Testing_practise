@@ -1,0 +1,15 @@
+// **launch (web driver) microsoft edge browser in selenium **
+
+
+import org.openqa.selenium.edge.EdgeDriver;
+public class Launch_explorer_driver {
+	public static void main (String[] args) { //main method
+		System.setProperty("webdriver.edge.driver","C:\\Program Files\\Browser drivers\\Edgedriver.exe");//key is web driver,values is loction of driver
+		
+		
+		EdgeDriver driver = new EdgeDriver();  // new object form
+		driver.get("http://edge.com");     //real browser
+		
+
+}
+}
